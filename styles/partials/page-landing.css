@@ -102,7 +102,7 @@
         margin: 0;
     }
     .logo-container img {
-        height: 127px%;
+        height: 127px;
     }
     .hero-image {
         grid-area: image;
