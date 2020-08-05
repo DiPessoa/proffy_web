@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-study.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+    <title>Proffy | Sua plataforma de estudos online</title>
+</head>
+
+<body id="page-study">
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                    <img src="images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="images/logo.svg" alt="Proffy">
+            </div>
+            <div class="header-content">
+                <strong>Estes são os poffys disponíveis.</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Matéria</label>
+                        <select name="subject" id="subject">
+                            <option value="" disable="" hidden="">Selecione uma opção</option>
+                            <option value="1">Artes</option>
+                            <option value="2">Biologia</option>
+                            <option value="3">Ciências</option>
+                            <option value="4">Educação Física</option>
+                            <option value="5">Física</option>
+                            <option value="6">Geografia</option>
+                            <option value="7">Hisória</option>
+                            <option value="8">Matemática</option>
+                            <option value="9">Portugês</option>
+                            <option value="10">Quimíca</option>
+                        </select>
+                    </div>
+                    <div class="select-block">
+                        <label for="weekday">Dia da Semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disable="" hidden="">Selecione uma opção</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Seguda-feira</option>
+                            <option value="2">Terça-feira</option>
+                            <option value="3">Quarta-feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="5">Sábado</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="time">Hora</label>
+                        <input name="time" id="time" type="time" min="0" max="24">
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4"
+                        alt="Diego Fernandes">
+                    <div>
+                        <strong>Diego Fernandes</strong>
+                        <span>Química</span>
+                    </div>
+                </header>
+
+                <p>Entusiasta das melhores tecnologias de química avançada<br><br>Apaixonado por explodir coisas em
+                laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já
+                passaram por uma das minhas explosões.</p>
+
+                <footer>
+                    <p>Preço/Hora<strong>R$ 20,00</strong></p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="WhatsApp">Entrar em contato
+                    </button>
+                </footer>
+
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars3.githubusercontent.com/u/32640285?s=460&u=6b7d48fec0842a67c71a55f5ca771f63195b3503&v=4"
+                        alt="Diogo Pessoa">
+                    <div>
+                        <strong>Diogo Pessoa</strong>
+                        <span>Portugês</span>
+                    </div>
+                </header>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi esse tempora exercitationem? Odit eligendi fugit perferendis cupiditate dicta itaque, eius porro facere, labore repudiandae quam odio deserunt accusamus optio quibusdam.<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum in accusamus iusto exercitationem pariatur suscipit maxime? Facere iusto cupiditate ipsam ducimus vero tempore pariatur amet, eos deserunt consequuntur quidem voluptate!</p>
+
+                <footer>
+                    <p>Preço/Hora<strong>R$ 20,00</strong></p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="WhatsApp">Entrar em contato
+                    </button>
+                </footer>
+
+            </article>
+        </main>
+    </div>
+
+</body>
+
+</html>
